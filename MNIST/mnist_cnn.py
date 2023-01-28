@@ -124,6 +124,6 @@ def train(model, num_epochs, train_dl, valid_dl):
     return loss_hist_train, loss_hist_valid, acc_hist_train, acc_hist_valid
   
   
-##########################
+###########################
 num_epochs = 20
 hist = train(model, num_epochs, train_dl, valid_dl)
